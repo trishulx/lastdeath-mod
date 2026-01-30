@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "lastdeath",
+  "version": "1.0.0",
+  "name": "Last Death Coordinates",
+  "description": "Shows the player's last death coordinates.",
+  "authors": ["MrXicx"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.mrxicx.lastdeath.LastDeathMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
